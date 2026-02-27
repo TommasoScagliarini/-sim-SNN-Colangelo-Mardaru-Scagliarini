@@ -1,0 +1,15 @@
+=========== Activate Conda Environment =============
+
+conda activate env_isaaclab
+cd IsaacLab
+
+===================================================
+
+
+=========== Launch CrazyFlie Training =============
+
+isaaclab.bat -p scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-Quadcopter-Direct-v0 --headless
+
+===================================================
+
+
